@@ -9,7 +9,8 @@ const Index = () => {
                 {/* Hero Section */}
                 <div className="hero text-center md:text-left flex flex-col gap-3 items-center md:items-start md:self-start self-center">
                     <h1 className="text-yellow-500 text-4xl md:text-6xl font-extrabold font-poppins">
-                        Internships
+                    Communities
+
                     </h1>
                     <h1 className="text-teal-300 text-center font-bold text-sm font-poppins self-center lg:text-left md:self-start">
                         I HAVE INTERNED FOR...
@@ -35,8 +36,8 @@ const Index = () => {
 
                             <div className="desc flex flex-col font-bold text-lg gap-8 justify-between">
 
-                                <p className="">Bano Qabil Incubation Center</p>
-                                <p className="italic">Mern and react intern</p>
+                                <p className="">Member</p>
+                                <p className="italic">Web Engineer</p>
 
 
                             </div>
@@ -44,7 +45,7 @@ const Index = () => {
 
                         <div className="text-zinc-100">
                             <p>
-                                Completing their Projects in react and Next js I have a solid understanding of networking protocols, including TCP/IP, DNS, HTTP, and more. I have worked on various projects to optimize network
+                                There I have Completing their Projects in react and Next js I have a solid understanding of networking protocols, including TCP/IP, DNS, HTTP, and more. I have worked on various projects to optimize network
                             </p>
                         </div>
                     </div>

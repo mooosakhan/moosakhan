@@ -27,7 +27,7 @@ const Index = () => {
             I have always been intrigued to learn more. I have experience in Cloud Computing, Cybersecurity, and Data Science. I love taking up new projects and building new apps/websites with people. I have recently started with Artifitial Intelligence and am currently making a project on it.
           </p>
 
-          <p className="text-zinc-100 lg:text-left text-md font-poppins ">
+          <p className="text-zinc-100 lg:text-left text-md font-poppins">
             I also love taking part in Hackathons, Challenges and Summits. I have participated in many programs like the Google Cloud Ready Facilitator, 30 Days of Cloud, Azure Developer League, AWS Cloud Summit, <span className="hidden md:block">Google Devfest, Azure Skill-Up, Learn to Earn, Hacktoberfest and much more.</span>
           </p>
 
