@@ -15,7 +15,7 @@ const Portfolio = () => {
   return (
     <>
     <div className="Navbar absolute top-8 w-full">
-      {/* <Navbar/> */}
+      <Navbar/>
     </div>
     <div className="flex flex-col
      lg:flex-row w-full bg-zinc-900 font-poppins">
