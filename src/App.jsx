@@ -8,7 +8,7 @@ import Communities from './components/Communities'
 import Education from './components/Education' 
 import Abilities from './components/Abilities'
 import CodingSkills from './components/CodeingSkills'
-
+ 
 import './index.css'
 
 const Portfolio = () => {
