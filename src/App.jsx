@@ -12,7 +12,7 @@ import CodingSkills from './components/CodeingSkills'
 import './index.css'
 
 const Portfolio = () => {
-  return (
+  return ( 
     <>
     <div className="Navbar absolute top-8 w-full">
       <Navbar/>
