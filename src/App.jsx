@@ -5,7 +5,7 @@ import Navbar from './components/Navbar'
 import Skills from './components/Skills'
 import Internships from './components/Internships'
 import Communities from './components/Communities'
-import Education from './components/Education'
+import Education from './components/Education' 
 import Abilities from './components/Abilities'
 import CodingSkills from './components/CodeingSkills'
 
