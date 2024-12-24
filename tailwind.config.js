@@ -8,6 +8,7 @@ export default {
     extend: {
       fontFamily: {
         poppins: ['Poppins', 'sans-serif'],
+        signature: ['"Great Vibes"', 'cursive'],
       },
       fontWeight: {
         'extra-bold': 800,

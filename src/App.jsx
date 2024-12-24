@@ -8,6 +8,8 @@ import Communities from './components/Communities'
 import Education from './components/Education' 
 import Abilities from './components/Abilities'
 import CodingSkills from './components/CodeingSkills'
+import Portfolios from './components/Portfolio'
+import Contact from './components/Contact'
  
 import './index.css'
 
@@ -45,6 +47,10 @@ const Portfolio = () => {
       <Abilities/>
       <hr className=" border-zinc-600"  />
       <CodingSkills/>
+      <hr className=" border-zinc-600"  />
+      <Portfolios/>
+      <hr className=" border-zinc-600"  />
+      <Contact/>
       </div>
     </div>
     </>
