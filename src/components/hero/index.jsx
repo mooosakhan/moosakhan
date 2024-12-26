@@ -111,6 +111,7 @@
 
 import React, { useState, useEffect } from "react";
 import Button from "./../Button";
+import HeroSectionTextHover from "../animata/hero/hero-section-text-hover";
 
 const Index = () => {
   // State to track whether it's mobile or not
@@ -122,8 +123,8 @@ const Index = () => {
       const isLgOrBigger = window.innerWidth >= 1024;  // Check if screen is large or bigger
 
       const url = isLgOrBigger
-        ? "https://readme-typing-svg.herokuapp.com/?font=Righteous&size=18&width=500&height=70&duration=4000&lines=MERN%20STACK%20DEVELOPER;PYTHON%20DEVELOPER;BACKEND%20DEVELOPER!&color=14B8A6"  // Left-aligned for large screens
-        : "https://readme-typing-svg.herokuapp.com/?font=Righteous&size=18&center=true&vCenter=true&width=500&height=70&duration=4000&lines=MERN%20STACK%20DEVELOPER;PYTHON%20DEVELOPER;BACKEND%20DEVELOPER!&color=14B8A6"; // Center-aligned for smaller screens
+        ? "https://readme-typing-svg.herokuapp.com/?font=Righteous&size=18&width=500&height=70&duration=4000&lines=MERN%20STACK%20DEVELOPER;PYTHON%20DEVELOPER;BACKEND%20DEVELOPER!&color=10cccc"  // Left-aligned for large screens
+        : "https://readme-typing-svg.herokuapp.com/?font=Righteous&size=18&center=true&vCenter=true&width=500&height=70&duration=4000&lines=MERN%20STACK%20DEVELOPER;PYTHON%20DEVELOPER;BACKEND%20DEVELOPER!&color=10cccc"; // Center-aligned for smaller screens
 
       setSvgUrl(url);
     };
@@ -138,16 +139,17 @@ const Index = () => {
 
   return (
     <>
-      <div className="flex flex-col lg:justify-end items-center justify-start gap-6 h-50vh lg:h-[96vh] p-6 px-14 rounded-4xl">
+      <div className="flex flex-col lg:justify-end lg:items-start justify-start gap-6 h-50vh lg:h-[96vh] p-6 px-14 rounded-4xl ">
         {/* Hero Section */}
-        <div className="hero text-center lg:text-left">
-          <h1 className="text-yellow-500 text-3xl md:text-6xl lg:text-7xl font-extrabold font-poppins z-50">
+        <div className="hero text-center lg:text-left flex items-center lg:items-start justify-start flex-col ">
+           <h1 className="text-yellow-500 text-3xl md:text-6xl lg:text-7xl font-extrabold font-poppins z-50">
             👋 I am <br />
             Moosa Khan
-          </h1>
+          </h1> 
+      
         </div>
 
-        <div className="text flex flex-col gap-5">
+        <div className="text flex flex-col gap-5 lg:mb-14">
           <p className="text-md flex justify-center lg:justify-start">
             {/* Dynamically change the SVG URL */}
             <img

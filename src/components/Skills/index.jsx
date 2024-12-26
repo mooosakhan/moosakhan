@@ -18,7 +18,7 @@
 //                         Skills
 //                     </h1>
 
-//                     <h1 className="text-teal-500 text-center font-bold text-sm font-poppins self-center lg:text-left lg:self-start">
+//                     <h1 className="text-teal-300 text-center font-bold text-sm font-poppins self-center lg:text-left lg:self-start">
 //                         THINGS I AM GOOD AT
 //                     </h1>
 
@@ -73,7 +73,7 @@ const Index = () => {
                     <h1 className="text-yellow-500 text-3xl lg:text-6xl md:text-5xl font-extrabold font-poppins">
                         Skills
                     </h1>
-                    <h1 className="text-teal-500 text-center font-bold text-sm font-poppins self-center lg:text-left lg:self-start">
+                    <h1 className="text-teal-300 text-center font-bold text-sm font-poppins self-center lg:text-left lg:self-start">
                         THINGS I AM GOOD AT
                     </h1>
                 </div>

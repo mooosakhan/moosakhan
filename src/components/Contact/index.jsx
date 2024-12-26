@@ -38,7 +38,7 @@ const Index = () => {
                 </div>
 
                 {/* Skills Section */}
-                <div className="flex gap-8 flex-col  md:flex-row w-full  items-center justify-center">
+                <div className="flex gap-16 md:gap-8 flex-col  md:flex-row w-full items-center justify-center">
                     <div className="left flex flex-col rounded-2xl w-full h-[65vh] md:w-[49%] justify-between align-middle items-center ">
                         <form className="w-full  bg-zinc-900">
                             <div className="relative mb-8 text-zinc-100 font-poppins">

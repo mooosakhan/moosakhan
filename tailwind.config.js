@@ -13,6 +13,10 @@ export default {
       fontWeight: {
         'extra-bold': 800,
       },
+      colors: {
+        titleColor: "#ffffff",
+        containerColor: "#1f2937",
+      },
     },
   },
   plugins: [],

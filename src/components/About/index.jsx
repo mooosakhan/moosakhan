@@ -15,7 +15,7 @@ const Index = () => {
             About Me
           </h1>
 
-          <h1 className="text-teal-500 text-center font-bold text-sm font-poppins self-center lg:text-left lg:self-start">
+          <h1 className="text-teal-300 text-center font-bold text-sm font-poppins self-center lg:text-left lg:self-start">
             MY STORY
           </h1>
 

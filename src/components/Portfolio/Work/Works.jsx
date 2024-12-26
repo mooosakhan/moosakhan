@@ -1,0 +1,51 @@
+import React, { useEffect, useState } from 'react';
+import { projects, projectsNav } from './Data';
+import WorksItems from './WorksItem';
+
+const Works = () => {
+  const [item, setItem] = useState({ name: 'all' });
+  const [project, setProject] = useState([]);
+  const [active, setActive] = useState(0);
+
+  useEffect(() => {
+    if (item.name === 'all') {
+      setProject(projects);
+    } else {
+      const newProject = projects.filter((project) => project.category === item.name);
+      setProject(newProject);
+    }
+  }, [item]);
+
+  const clickHandler = (e, index) => {
+    setItem({ name: e.target.textContent });
+    setActive(index);
+  };
+
+  return (
+    <div className="flex flex-col items-center  text-sm font-poppins self-end">
+      {/* Filters */}
+      <div className="flex justify-center items-center gap-4 mb-8 ">
+        {projectsNav.map((item, index) => (
+          <span
+            onClick={(e) => clickHandler(e, index)}
+            className={`px-4 py-2 font-medium rounded-lg cursor-pointer capitalize ${
+              active === index ? 'text-teal-300' : 'bg-zinc-900 text-gray-300'
+            }  `}
+            key={index}
+          >
+            {item.name}
+          </span>
+        ))}
+      </div>
+
+      {/* Project Grid */}
+      <div className="grid grid-cols-2 gap-8 md:grid-cols-3 sm:grid-cols-2 self-center lg:grid-cols-2 ">
+        {project.map((item) => (
+          <WorksItems item={item} key={item.id} />
+        ))}
+      </div>
+    </div>
+  );
+};
+
+export default Works;

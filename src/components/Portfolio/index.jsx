@@ -2,12 +2,14 @@
 
 import React, { useState } from "react";
 import "./index.css";
+// import Works from "./Showcase/index";
+import Work from "./Work/Work";
 
 const Index = () => {
     const percentage = 75;
     return (
         <>
-            <div className="flex font-poppins flex-col md:justify-center items-center md:items-start justify-center gap-14 h-auto p-14 md:py-28">
+            <div className="flex font-poppins flex-col md:justify-center items-center md:items-start justify-center gap-14 h-auto p-8 md:py-28">
                 {/* Hero Section */}
                 <div className="hero text-center md:text-left flex flex-col gap-3 items-center md:items-start md:self-start self-center">
                     <h1 className="text-yellow-500 text-4xl md:text-6xl font-extrabold font-poppins">
@@ -20,9 +22,8 @@ const Index = () => {
                     </h1>
                 </div>
 
-                {/* Skills Section */}
-                <div className="text flex gap-6 flex-col flex-wrap md:flex-row flex-1">
-              
+                <div className="h-auto w-full">
+              <Work />
                     
                 </div>
             </div>

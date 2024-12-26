@@ -51,7 +51,7 @@ const Index = () => {
                 <line x1="16" y1="17" x2="8" y2="17"></line>
                 <polyline points="10 9 9 9 8 9"></polyline>
               </svg>
-              Docs
+              Resume
             </div>
             <div className="download">
               <svg

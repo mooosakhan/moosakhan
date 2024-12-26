@@ -43,8 +43,8 @@
   z-index: -1;
   border-radius: 4px;
   transform: translateY(0%);
-  background-color:   teal;
-  border: solid 1px  teal;
+  background-color:   #10cccc;
+  border: solid 1px  rgb(6, 185, 185);
   transition: all 0.5s cubic-bezier(0.77, 0, 0.175, 1);
 }
 

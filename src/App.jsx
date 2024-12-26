@@ -11,6 +11,7 @@ import Abilities from './components/Abilities'
 import CodingSkills from './components/CodeingSkills'
 import Portfolios from './components/Portfolio'
 import Contact from './components/Contact'
+import hovertext from './components/animata/hero/hero-section-text-hover'
 import './App.css';
 
 function App() {
