@@ -1,7 +1,7 @@
 
 
 import React, { useState } from "react";
-
+import "./index.css";
 
 const Index = () => {
     const percentage = 75;
@@ -15,14 +15,15 @@ const Index = () => {
 
                     </h1>
                     <h1 className="text-teal-300 font-bold text-sm font-poppins self-center lg:text-left md:self-start">
-                     My works...
-                     <span className="block"><i>Click on each to learn more about them</i></span>
+                        My works...
+                        <span className="block"><i>Click on each to learn more about them</i></span>
                     </h1>
                 </div>
 
                 {/* Skills Section */}
                 <div className="text flex gap-6 flex-col flex-wrap md:flex-row flex-1">
-       
+              
+                    
                 </div>
             </div>
         </>

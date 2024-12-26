@@ -1,11 +1,12 @@
 import React from "react";
 import Button from "./../Button";
+import "./index.css";
 
 const Index = () => {
   return (
     <div className="text-zinc-100 bg-black bg-opacity-60 h-18 flex items-center self-center rounded-full justify-between mx-12 ">
-     
-        <a href="https://github.com/mooosakhan" target="blank"> 
+
+      <a href="https://github.com/mooosakhan" target="blank">
         <div className="logo">
           <button className="cursor-pointer w-fit h-fit invert rounded-full scale-50  flex transition-all gap-5 ">
             <svg height="95" width="98" xmlns="http://www.w3.org/2000/svg">
@@ -19,19 +20,61 @@ const Index = () => {
             <div className="text-zinc-900 text-4xl self-center font-black font-poppins" >mooosa <br /> khan</div>
           </button>
         </div></a>
-        <div className="right w-1/2 flex font-poppins font-bold justify-between">
-          <div className="list flex justify-center align-middle items-center gap-7">
-            <a href="">Home</a>
-            <a href="">About</a>
-            <a href="">Portfolio</a>
-            <a href="">Contact Us</a>
-            <a href="">Resume</a>
-          </div>
-          <div className="Download mx-10 ">
-          <Button/>
-          </div>
+      <div className="right w-1/2 flex font-poppins font-bold justify-between">
+        <div className="list flex justify-center align-middle items-center gap-7">
+          <a href="">Home</a>
+          <a href="">About</a>
+          <a href="">Portfolio</a>
+          <a href="">Contact Us</a>
+          <a href="">Resume</a>
         </div>
-      
+        <div className="Download mx-10 ">
+          {/* <Button/> */}
+          <button className="download-button">
+            <div className="docs">
+              <svg
+                viewBox="0 0 24 24"
+                width="20"
+                height="20"
+                stroke="currentColor"
+                stroke-width="2"
+                fill="none"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                className="css-i6dzq1"
+              >
+                <path
+                  d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"
+                ></path>
+                <polyline points="14 2 14 8 20 8"></polyline>
+                <line x1="16" y1="13" x2="8" y2="13"></line>
+                <line x1="16" y1="17" x2="8" y2="17"></line>
+                <polyline points="10 9 9 9 8 9"></polyline>
+              </svg>
+              Docs
+            </div>
+            <div className="download">
+              <svg
+                viewBox="0 0 24 24"
+                width="24"
+                height="24"
+                stroke="currentColor"
+                stroke-width="2"
+                fill="none"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                className="css-i6dzq1"
+              >
+                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                <polyline points="7 10 12 15 17 10"></polyline>
+                <line x1="12" y1="15" x2="12" y2="3"></line>
+              </svg>
+            </div>
+          </button>
+
+        </div>
+      </div>
+
     </div>
   );
 };

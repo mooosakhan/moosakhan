@@ -1,4 +1,5 @@
-import React from "react";
+import React, { useState, useEffect } from 'react';
+import Loader from './components/Loader';
 import Hero from './components/hero'
 import About from './components/About'
 import Navbar from './components/Navbar'
@@ -10,12 +11,27 @@ import Abilities from './components/Abilities'
 import CodingSkills from './components/CodeingSkills'
 import Portfolios from './components/Portfolio'
 import Contact from './components/Contact'
- 
-import './index.css'
+import './App.css';
 
-const Portfolio = () => {
-  return ( 
-    <>
+function App() {
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    setTimeout(() => {
+      setLoading(false); // Simulate loading complete after 3 seconds
+    }, 4000);
+  }, []);
+
+  return (
+    <div>
+      {loading ?(
+        <div
+          className="w-screen h-screen bg-zinc-800 flex items-center justify-center"
+          style={{ position: 'fixed', top: 0, left: 0, zIndex: 999 }}
+        >
+          <Loader />
+        </div>
+      )  : (<>
     <div className="Navbar absolute top-8 w-full">
       <Navbar/>
     </div>
@@ -53,8 +69,11 @@ const Portfolio = () => {
       <Contact/>
       </div>
     </div>
-    </>
+    </>)}
+    </div>
   );
-};
+}
 
-export default Portfolio;
+export default App;
+
+ 
