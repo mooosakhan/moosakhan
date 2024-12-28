@@ -11,7 +11,7 @@ import Abilities from './components/Abilities'
 import CodingSkills from './components/CodeingSkills'
 import Portfolios from './components/Portfolio'
 import Contact from './components/Contact'
-import hovertext from './components/animata/hero/hero-section-text-hover'
+// import hovertext from './components/animata/hero/hero-section-text-hover'
 import './App.css';
 
 function App() {
@@ -33,10 +33,10 @@ function App() {
           <Loader />
         </div>
       )  : (<>
-    <div className="Navbar absolute top-8 w-full">
+    <div className="Navbar absolute top-8 w-full bg-zinc-900 font-poppins">
       <Navbar/>
     </div>
-    <div className="flex flex-col
+     <div className="flex flex-col
      lg:flex-row w-full bg-zinc-900 font-poppins">
       {/* Left Section - Image */}
       <div className="w-full h-[50vh] lg:h-screen lg:w-1/2">
@@ -69,7 +69,8 @@ function App() {
       <hr className=" border-zinc-600"  />
       <Contact/>
       </div>
-    </div>
+     </div> 
+
     </>)}
     </div>
   );

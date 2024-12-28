@@ -29,7 +29,7 @@ const Index = () => {
     ];
     return (
         <>
-            <div className="flex flex-col md:justify-center items-center md:items-start justify-center gap-14 h-auto p-14 md:py-28">
+            <div className="flex flex-col md:justify-center items-center md:items-start justify-center  gap-14 h-auto lg:h-auto px-8 lg:px-14 py-14 md:py-20 lg:py-20">
                 {/* Hero Section */}
                 <div className="hero text-center md:text-left flex flex-col gap-3 items-center md:items-start md:self-start self-center">
                     <h1 className="text-yellow-500 text-4xl md:text-6xl font-extrabold font-poppins">
@@ -41,52 +41,13 @@ const Index = () => {
                 </div>
 
                 {/* Skills Section */}
-                <div className="container mx-auto p-8">
-                    {/* tcontainer mx-auto p-8 */}
-
-
-                    {/* <section className=" text-white">
-                          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
-                            {skills.map((skill, index) => (
-                                <div
-                                    key={index}
-                                    className="flex flex-col items-center text-center rounded-lg p-6 shadow-md"
-                                >
-                                    <div className="relative w-24 h-24">
-                                        <svg className="w-full h-full">
-                                            <circle
-                                                cx="50%"
-                                                cy="50%"
-                                                r="40%"
-                                                strokeWidth="8"
-                                                className="text-gray-700 fill-none"
-                                                stroke="currentColor"
-                                            />
-                                            <circle
-                                                cx="50%"
-                                                cy="50%"
-                                                r="40%"
-                                                strokeWidth="8"
-                                                className="text-teal-400 fill-none stroke-current"
-                                                strokeDasharray={`${skill.percentage}, 100`}
-                                                strokeDashoffset="25"
-                                            />
-                                        </svg>
-                                        <span className="absolute inset-0 flex items-center justify-center text-lg font-semibold text-teal-400">
-                                            {skill.percentage}%
-                                        </span>
-                                    </div>
-                                    <h3 className="text-yellow-500 text-xl font-bold mt-4">{skill.name}</h3>
-                                    <p className="text-gray-400 mt-2">{skill.description}</p>
-                                </div>
-                            ))}
-                        </div>
-                    </section> */}
-                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div className="">
+                 
+                    <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-2 gap-8 ">
                         {skills.map((skill, index) => (
                             <div
                                 key={index}
-                                className="flex flex-col items-center text-center text-white rounded-lg p-6"
+                                className="flex flex-col items-center text-center text-white rounded-lg p-6 border-2 border-gray-700  shadow-md"
                             >
                                 <div className="relative w-24 h-24">
                                     <svg className="w-full h-full">
@@ -113,7 +74,7 @@ const Index = () => {
                                     </span>
                                 </div>
                                 <h3 className="text-yellow-500 text-lg font-bold mt-4">{skill.name}</h3>
-                                <p className="text-zinc-100 mt-2">{skill.description}</p>
+                                <p className="text-zinc-100 mt-2 text-sm">{skill.description}</p>
                             </div>
                         ))}
                     </div>
