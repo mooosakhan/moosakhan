@@ -4,7 +4,7 @@
 
 // const index = () => {
 //   return (
-    
+
 //     <>
 //       {/* <div className="circle bg-zinc-900 h-72 w-72  absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 rounded-full">
 //   mbnbvvbvb
@@ -97,7 +97,7 @@
 //             to new people and discuss about new ideas. I have recently{" "}
 //             started with Web Development and loving it since.
 //           </p>
-          
+
 //           <div className="btn  self-center lg:self-start">
 //             <Button />
 //           </div>
@@ -123,8 +123,8 @@ const Index = () => {
       const isLgOrBigger = window.innerWidth >= 1024;  // Check if screen is large or bigger
 
       const url = isLgOrBigger
-        ? "https://readme-typing-svg.herokuapp.com/?font=Righteous&size=18&width=500&height=70&duration=4000&lines=MERN%20STACK%20DEVELOPER;PYTHON%20DEVELOPER;BACKEND%20DEVELOPER!&color=10cccc"  // Left-aligned for large screens
-        : "https://readme-typing-svg.herokuapp.com/?font=Righteous&size=18&center=true&vCenter=true&width=500&height=70&duration=4000&lines=MERN%20STACK%20DEVELOPER;PYTHON%20DEVELOPER;BACKEND%20DEVELOPER!&color=10cccc"; // Center-aligned for smaller screens
+        ? "https://readme-typing-svg.herokuapp.com/?font=Righteous&size=18&width=500&height=70&duration=4000&lines=MERN%20STACK%20DEVELOPER;PYTHON%20DEVELOPER;BACKEND%20DEVELOPER!&color=5eead4"  // Left-aligned for large screens
+        : "https://readme-typing-svg.herokuapp.com/?font=Righteous&size=18&center=true&vCenter=true&width=500&height=70&duration=4000&lines=MERN%20STACK%20DEVELOPER;PYTHON%20DEVELOPER;BACKEND%20DEVELOPER!&color=5eead4"; // Center-aligned for smaller screens
 
       setSvgUrl(url);
     };
@@ -142,11 +142,11 @@ const Index = () => {
       <div className="flex flex-col lg:justify-end lg:items-start justify-start gap-6 h-50vh lg:h-[96vh] p-6 px-14 rounded-4xl ">
         {/* Hero Section */}
         <div className="hero text-center lg:text-left flex items-center lg:items-start justify-start flex-col ">
-           <h1 className="text-yellow-500 text-3xl md:text-6xl lg:text-7xl font-extrabold font-poppins z-50">
+           <h1 className="text-yellow-500 text-3xl md:text-6xl lg:text-7xl font-extrabold font-poppins ">
             👋 I am <br />
             Moosa Khan
-          </h1> 
-      
+          </h1>
+
         </div>
 
         <div className="text flex flex-col gap-5 lg:mb-14">
@@ -164,8 +164,8 @@ const Index = () => {
             to new people and discuss about new ideas. I have recently{" "}
             started with Web Development and loving it since.
           </p>
-          
-          <div className="btn self-center lg:self-start">
+
+          <div className="btn self-center lg:self-start text-sm">
             <Button />
           </div>
         </div>
@@ -175,4 +175,3 @@ const Index = () => {
 };
 
 export default Index;
-

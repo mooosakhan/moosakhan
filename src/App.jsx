@@ -6,7 +6,7 @@ import Navbar from './components/Navbar'
 import Skills from './components/Skills'
 import Internships from './components/Internships'
 import Communities from './components/Communities'
-import Education from './components/Education' 
+import Education from './components/Education'
 import Abilities from './components/Abilities'
 import CodingSkills from './components/CodeingSkills'
 import Portfolios from './components/Portfolio'
@@ -33,7 +33,7 @@ function App() {
           <Loader />
         </div>
       )  : (<>
-    <div className="Navbar absolute top-8 w-full bg-zinc-900 font-poppins">
+    <div className="Navbar absolute top-8 w-full font-poppins">
       <Navbar/>
     </div>
      <div className="flex flex-col
@@ -69,7 +69,7 @@ function App() {
       <hr className=" border-zinc-600"  />
       <Contact/>
       </div>
-     </div> 
+     </div>
 
     </>)}
     </div>
@@ -77,5 +77,3 @@ function App() {
 }
 
 export default App;
-
- 
