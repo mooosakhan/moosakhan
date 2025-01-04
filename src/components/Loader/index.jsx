@@ -45,8 +45,8 @@ const Preloader = () => {
               stroke="#282828"
               fill="#282828"
               rx="1"
-              height="11"
-              width="4"
+              height="21"
+              width="40"
               y="81"
               x="193"
             />

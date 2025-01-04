@@ -139,11 +139,11 @@ const Index = () => {
 
   return (
     <>
-      <div className="flex flex-col lg:justify-end lg:items-start justify-start gap-6 h-50vh lg:h-[96vh] p-6 px-14 rounded-4xl ">
+      <div id="home" className="flex flex-col lg:justify-end lg:items-start justify-start gap-6 h-50vh lg:h-[96vh] p-6 px-14 rounded-4xl ">
         {/* Hero Section */}
         <div className="hero text-center lg:text-left flex items-center lg:items-start justify-start flex-col ">
            <h1 className="text-yellow-500 text-3xl md:text-6xl lg:text-7xl font-extrabold font-poppins ">
-            👋 I am <br />
+             I am <br />
             Moosa Khan
           </h1>
 

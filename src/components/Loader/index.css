@@ -1,4 +1,4 @@
-/* From Uiverse.io by vinodjangid07 */ 
+/* From Uiverse.io by vinodjangid07 */
 .loader {
     width: fit-content;
     height: fit-content;
@@ -6,7 +6,19 @@
     align-items: center;
     justify-content: center;
   }
-  
+  .loader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  .truckWrapper {
+    transform: scale(1.5); /* Adjust this value to make the loader bigger or smaller */
+  }
+
+
+
   .truckWrapper {
     width: 200px;
     height: 100px;
@@ -50,7 +62,7 @@
   .truckTires svg {
     width: 24px;
   }
-  
+
   .road {
     width: 100%;
     height: 1.5px;
@@ -82,7 +94,7 @@
     animation: roadAnimation 1.4s linear infinite;
     border-left: 4px solid white;
   }
-  
+
   .lampPost {
     position: absolute;
     bottom: 0;
@@ -90,7 +102,7 @@
     height: 90px;
     animation: roadAnimation 1.4s linear infinite;
   }
-  
+
   @keyframes roadAnimation {
     0% {
       transform: translateX(0px);
@@ -99,4 +111,3 @@
       transform: translateX(-350px);
     }
   }
-  

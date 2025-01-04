@@ -1,6 +1,6 @@
 .loader {
   width: 300px; /* Make the loader bigger */
-  height: 300px; /* Adjust the size */
+  height: 200px; /* Adjust the size */
   position: absolute;
   top: 50%;
   left: 50%;
@@ -28,7 +28,7 @@
 
   ::-webkit-scrollbar-thumb:hover {
     background-color: #38b2ac; /* Teal-400 color on hover */
-    transform: scale(1.9); /* Slightly enlarge on hover */
+    transform: scale(2.9); /* Slightly enlarge on hover */
   }
 
   ::-webkit-scrollbar-track {
@@ -51,4 +51,24 @@
   ::-webkit-scrollbar-thumb-horizontal:hover {
     background-color: #38b2ac; /* Teal-400 color on hover */
     transform: scale(1.1);
+  }
+
+
+  .portfolio {
+    display: flex;
+    height: 100vh;
+  }
+
+  .left-section {
+    flex: 1;
+    position: fixed;
+    width: 50%;
+    height: 100%;
+  }
+
+  .right-section {
+    flex: 1;
+    margin-left: 50%;
+    overflow-y: scroll;
+    height: 100vh;
   }

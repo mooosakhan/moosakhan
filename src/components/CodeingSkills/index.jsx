@@ -29,7 +29,7 @@ const Index = () => {
     ];
     return (
         <>
-            <div className="flex flex-col md:justify-center items-center md:items-start justify-center  gap-14 h-auto lg:h-auto px-8 lg:px-14 py-14 md:py-20 lg:py-20">
+            <div id="coding-skills" className="flex flex-col md:justify-center items-center md:items-start justify-center  gap-14 h-auto lg:h-auto px-8 lg:px-14 py-14 md:py-20 lg:py-20">
                 {/* Hero Section */}
                 <div className="hero text-center md:text-left flex flex-col gap-3 items-center md:items-start md:self-start self-center">
                     <h1 className="text-yellow-500 text-4xl md:text-6xl font-extrabold font-poppins">
@@ -42,7 +42,7 @@ const Index = () => {
 
                 {/* Skills Section */}
                 <div className="">
-                 
+
                     <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-2 gap-8 ">
                         {skills.map((skill, index) => (
                             <div
@@ -88,10 +88,3 @@ const Index = () => {
 };
 
 export default Index;
-
-
-
-
-
-
-

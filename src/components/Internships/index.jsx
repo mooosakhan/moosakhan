@@ -5,7 +5,7 @@ import React from "react";
 const Index = () => {
     return (
         <>
-            <div className="flex flex-col md:justify-center items-center md:items-start justify-center  md:gap-14 gap-10 h-auto lg:h-[70vh] px-8 lg:px-14 py-14 md:py-20 lg:py-28 ">
+            <div id="internships" className="flex flex-col md:justify-center items-center md:items-start justify-center  md:gap-14 gap-10 h-auto lg:h-[70vh] px-8 lg:px-14 py-14 md:py-20 lg:py-28 ">
                 {/* Hero Section */}
                 <div className="hero text-center md:text-left flex flex-col gap-3 items-center md:items-start md:self-start self-center">
                     <h1 className="text-yellow-500 text-4xl md:text-6xl font-extrabold font-poppins">
