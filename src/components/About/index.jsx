@@ -63,11 +63,12 @@ const Index = () => {
 
         <div className="text flex flex-col gap-5 text-center text-sm md:text-left font-poppins">
           <p className="text-zinc-200">
-            I have always been intrigued to learn more. I have experience in Cloud Computing, Cybersecurity, and Data Science. I love taking up new projects and building new apps/websites with people. I have recently started with Artificial Intelligence and am currently making a project on it.
-          </p>
+          As an undergraduate passionate about web development, I specialize in creating dynamic applications and engaging websites. I thrive on collaborating with others to bring innovative projects to life.
+    </p>
 
           <p className="text-zinc-200">
-            I also love taking part in Hackathons, Challenges, and Summits. I have participated in many programs like the Google Cloud Ready Facilitator, 30 Days of Cloud, Azure Developer League, AWS Cloud Summit, <span className="hidden md:block">Google Devfest, Azure Skill-Up, Learn to Earn, Hacktoberfest and much more.</span>
+
+Recently, I've delved into machine learning and natural language processing, currently working on an AI-driven project that integrates these technologies.<span className="hidden md:inline"> I actively participate in hackathons, challenges, and summits to further enhance my expertise.</span>
           </p>
         </div>
       </div>

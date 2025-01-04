@@ -92,16 +92,16 @@ const Index = () => {
                         </div>
 
                         <div className="flex flex-col gap-4 ">
-                            <p className="text-teal-300">AGE : <span className="text-zinc-100"> 20 </span></p>
-                            <p className="text-teal-300">PHONE : <span className="text-zinc-100"> +91 1234567890</span></p>
+                            <p className="text-teal-300">AGE : <span className="text-zinc-100"> 18 </span></p>
+                            <p className="text-teal-300">PHONE : <span className="text-zinc-100"> +92 3314027135</span></p>
                             <p className="text-teal-300">EMAIL : <span className="text-zinc-100">
                                 <a href="mailto:aa" className="hover:text-teal-300">
                                     moosakhan@gmail.com
                                 </a>
                             </span>
                             </p>
-                            <p className="text-teal-300">RESIDENCE : <span className="text-zinc-100">  India</span></p>
-                            <p className="text-teal-300">ADDRESS : <span className="text-zinc-100"> Kolkata </span></p>
+                            <p className="text-teal-300">RESIDENCE : <span className="text-zinc-100">  Pakistan <span className="subpixel-antialiased font-light text-xs">🇵🇰</span></span></p>
+                            <p className="text-teal-300">ADDRESS : <span className="text-zinc-100"> Karachi </span></p>
                             <p className="text-teal-300">TWITTER : <span className="text-zinc-100">  @mooosaKhan </span></p>
                         </div>
 

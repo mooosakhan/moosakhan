@@ -159,10 +159,7 @@ const Index = () => {
           </p>
 
           <p className="text-zinc-100 text-center text-sm font-poppins lg:text-left ">
-            Hello! I am an undergraduate student with a never ending love{" "}
-            for Cloud and a burning passion for Cybersecurity. I love talking{" "}
-            to new people and discuss about new ideas. I have recently{" "}
-            started with Web Development and loving it since.
+          I'm an undergraduate student passionate about frontend and MERN stack development. I enjoy engaging with new people to discuss innovative ideas. Recently, I've delved into data structures, further fueling my enthusiasm for web development.
           </p>
 
           <div className="btn self-center lg:self-start text-sm">
