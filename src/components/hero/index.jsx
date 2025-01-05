@@ -111,7 +111,7 @@
 
 import React, { useState, useEffect } from "react";
 import Button from "./../Button";
-import HeroSectionTextHover from "../animata/hero/hero-section-text-hover";
+// import HeroSectionTextHover from "../animata/hero/hero-section-text-hover";
 
 const Index = () => {
   // State to track whether it's mobile or not
