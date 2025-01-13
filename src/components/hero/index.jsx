@@ -45,7 +45,7 @@ const Index = () => {
           </p>
 
           <p className="text-zinc-100 text-center text-sm font-poppins lg:text-left">
-            I'm an undergraduate student passionate about frontend and MERN
+            Im an undergraduate student passionate about frontend and MERN
             stack development. I enjoy engaging with new people to discuss
             innovative ideas. Recently, I've delved into data structures,
             further fueling my enthusiasm for web development.
