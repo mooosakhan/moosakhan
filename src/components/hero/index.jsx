@@ -47,7 +47,7 @@ const Index = () => {
           <p className="text-zinc-100 text-center text-sm font-poppins lg:text-left">
             Im an undergraduate student passionate about frontend and MERN
             stack development. I enjoy engaging with new people to discuss
-            innovative ideas. Recently, I've delved into data structures,
+            innovative ideas. Recently, I have delved into data structures,
             further fueling my enthusiasm for web development.
           </p>
 
