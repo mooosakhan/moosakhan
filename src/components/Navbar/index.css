@@ -1,3 +1,24 @@
+/* Add this to your CSS file (e.g., App.css) */
+.smooth-transition a {
+  transition: color 500ms ease-in-out, transform 500ms ease-in-out;
+}
+
+.smooth-transition a:hover {
+  transform: scale(1.1); /* Slightly scale up on hover */
+}
+
+
+.list button {
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.list button:hover {
+  color: #00bcd4; /* Change to your desired hover color */
+}
+
+
+
 .download-button {
   position: relative;
   border-width: 0;

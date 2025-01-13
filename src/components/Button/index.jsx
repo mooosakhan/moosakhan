@@ -1,8 +1,8 @@
-import React from 'react'
 import './index.css'
 
 const index = () => {
   return (
+    <a href="#contact">
     <button className="btn-53">
     <div className="original text-xs font-poppins font-extrabold">Contact</div>
 
@@ -17,7 +17,7 @@ const index = () => {
       <span>T</span>
 
     </div>
-  </button>
+  </button></a>
   )
 }
 

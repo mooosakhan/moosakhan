@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import  { useState, useEffect } from "react";
 import Button from "../Button"; // Adjusted relative import
 // Removed unused import of HeroSectionTextHover
 
@@ -30,7 +30,7 @@ const Index = () => {
       >
         {/* Hero Section */}
         <div className="hero text-center lg:text-left flex items-center lg:items-start justify-start flex-col">
-          <h1 className="text-yellow-500 text-3xl md:text-6xl lg:text-7xl font-extrabold font-poppins">
+          <h1 className="text-yellow-500 text-3xl md:text-6xl lg:text-7xl xl:text-8xl font-extrabold font-poppins">
             I am <br />
             Moosa Khan
           </h1>
