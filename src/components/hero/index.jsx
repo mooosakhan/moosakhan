@@ -1,7 +1,5 @@
 import  { useState, useEffect } from "react";
-import Button from "../Button"; // Adjusted relative import
-// Removed unused import of HeroSectionTextHover
-
+import Button from "../Button"; 
 const Index = () => {
   const [svgUrl, setSvgUrl] = useState("");
 
