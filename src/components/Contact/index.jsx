@@ -89,7 +89,7 @@ const Index = () => {
       <div className="flex gap-16 md:gap-8 flex-col md:flex-row w-full items-center justify-center">
         <div className="left flex flex-col rounded-2xl w-full h-[65vh] md:w-[49%] justify-between align-middle items-center">
         <form ref={form} onSubmit={sendEmail} className="w-full  bg-zinc-900">
-            <div className="relative mb-8 text-zinc-100 font-poppins">
+            <div className="relative mb-4 text-zinc-100 font-poppins">
               <label className="absolute -top-1.5 left-10 px-2 text-xs bg-zinc-900 font-bold ">
                 FULL NAME <span className="text-teal-300 text-md">*</span>
               </label>
@@ -103,7 +103,7 @@ const Index = () => {
                 placeholder="eg. John Doe"
               />
             </div>
-            <div className="relative mb-8 text-zinc-100 font-poppins">
+            <div className="relative mb-4 text-zinc-100 font-poppins">
               <label className="absolute -top-1.5 left-10 px-2 text-xs bg-zinc-900 font-bold ">
                 EMAIL ADDRESS <span className="text-teal-300 text-md">*</span>
               </label>
@@ -117,7 +117,7 @@ const Index = () => {
                 placeholder="email@domain.com"
               />
             </div>
-            <div className="relative mb-8 text-zinc-100 font-poppins">
+            <div className="relative mb-4 text-zinc-100 font-poppins">
               <label className="absolute -top-1.5 left-10 px-2 text-xs bg-zinc-900 font-bold ">
                 MESSAGE <span className="text-teal-300 text-md">*</span>
               </label>
@@ -150,7 +150,7 @@ const Index = () => {
           </div>
         )}
         
-        <div className="right border rounded-3xl w-full h-[65vh] md:w-[49%] border-zinc-600 flex flex-col gap-12 p-8 text-sm font-poppins font-bold">
+        <div className="right border rounded-3xl w-full h-[65vh] md:w-[49%] border-zinc-600 flex flex-col gap-4 p-8 text-sm font-poppins font-bold">
           <div className="flex flex-col gap-0 items-start">
             <h1 className="text-yellow-500 text-xl font-extrabold">Moosa Khan</h1>
             <h1 className="text-teal-300 text-sm">Student & Technology Enthusiast</h1>
@@ -160,7 +160,7 @@ const Index = () => {
             <p className="text-teal-300">AGE : <span className="text-zinc-100">18</span></p>
             <p className="text-teal-300">PHONE : <span className="text-zinc-100">+92 331 4027135</span></p>
             <p className="text-teal-300">EMAIL : <span className="text-zinc-100"><a target='blank' href="mailto:moosakhan@gmail.com" className="hover:text-teal-300">moosakhan3856902@gmail.com</a></span></p>
-            <p className="text-teal-300">RESIDENCE : <span className="text-zinc-100">Pakistan 🇵🇰</span></p>
+           
             <p className="text-teal-300">ADDRESS : <span className="text-zinc-100">Karachi</span></p>
             <a target='blank' href="https://www.linkedin.com/in/mooosakhan/"><p className="text-teal-300">Linked In : <span className="text-zinc-100 hover:text-teal-300">linkedin.com/in/mooosakhan/</span></p></a>
             <a target='blank' href="https://github.com/mooosakhan">

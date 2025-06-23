@@ -1,5 +1,5 @@
-import  { useState, useEffect } from "react";
-import Button from "../Button"; 
+import { useState, useEffect } from "react";
+import Button from "../Button";
 const Index = () => {
   const [svgUrl, setSvgUrl] = useState("");
 
@@ -24,29 +24,26 @@ const Index = () => {
     <>
       <div
         id="home"
-        className="flex flex-col lg:justify-end lg:items-start justify-start gap-6 h-[50vh] lg:h-[96vh] p-6 px-14 rounded-4xl"
+        className="flex flex-col lg:justify-end lg:items-start justify-start gap-4 h-[70vh] lg:h-[100vh] p-6 px-14 rounded-4xl"
       >
         {/* Hero Section */}
         <div className="hero text-center lg:text-left flex items-center lg:items-start justify-start flex-col">
-          <h1 className="text-yellow-500 text-3xl md:text-6xl lg:text-7xl xl:text-8xl font-extrabold font-poppins">
+          <h1 className="text-yellow-500 text-3xl md:text-6xl lg:text-7xl xl:text-7xl font-extrabold font-poppins">
             I am <br />
-            Moosa Khan
+            Moosa <span className="md:block">Khan</span>
           </h1>
         </div>
 
-        <div className="text flex flex-col gap-5 lg:mb-14">
+        <div className="text flex flex-col gap-5 lg:mb-0">
           <p className="text-md flex justify-center lg:justify-start">
-            <img
-              src={svgUrl}
-              alt="Typing animation displaying skills"
-            />
+            <img src={svgUrl} alt="Typing animation displaying skills" />
           </p>
 
           <p className="text-zinc-100 text-center text-sm font-poppins lg:text-left">
-            Im an undergraduate student passionate about frontend and MERN
-            stack development. I enjoy engaging with new people to discuss
-            innovative ideas. Recently, I have delved into data structures,
-            further fueling my enthusiasm for web development.
+            Im an undergraduate student passionate about frontend and MERN stack
+            development. I enjoy engaging with new people to discuss innovative
+            ideas. Recently, I have delved into data structures, further fueling
+            my enthusiasm for web development.
           </p>
 
           <div className="btn self-center lg:self-start text-sm">
