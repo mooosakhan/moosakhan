@@ -12,6 +12,7 @@ import Abilities from "./components/Abilities";
 import CodingSkills from "./components/CodeingSkills";
 import Portfolios from "./components/Portfolio";
 import Contact from "./components/Contact";
+import me from "../public/assets/me.jpeg";
 import "./App.css";
 
 function App() {
@@ -42,7 +43,7 @@ function App() {
             {/* Left Section - 3D Avatar */}
             <div className="w-full h-[50vh] lg:h-screen lg:w-1/2">
               <img
-                src="https://raw.githubusercontent.com/mooosakhan/mooosakhan.github.io/refs/heads/main/src/assets/WhatsApp%20Image%202025-02-06%20at%204.05.26%20PM.jpeg"
+                src={me}
                 alt="Profile"
                 className="object-cover w-full h-full"
               />

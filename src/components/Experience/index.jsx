@@ -10,7 +10,7 @@ const Index = () => {
             Experience
           </h1>
           <h1 className="text-teal-300 text-center font-bold text-sm font-poppins self-center lg:text-left md:self-start">
-            STUDIED AT
+            WORKED AT
           </h1>
         </div>
 
@@ -23,23 +23,22 @@ const Index = () => {
                                 <p className="text-xs font-semibold">05/2022-08/2022</p>
                             </div> */}
               <div className="date flex md:transform md:rotate-90 text-center text-teal-300 h-5 md:self-center md:align-middle md:-ml-12 md:-mr-12">
-                <p className="text-xs font-semibold">09/2023-03/2027</p>
+                <p className="text-xs font-semibold">02/2025-Present</p>
               </div>
 
               <div className="desc flex flex-col font-bold text-lg gap-4 md:gap-8 justify-between">
-                <p className="">Dawood University of Engineering technology</p>
-                <p className="italic">Karachi,Pakistan</p>
+                <p className="">Saylani Welfare Trust</p>
+                <p className="italic">Software Engineer</p>
               </div>
             </div>
 
             <div className="text-zinc-100 text-sm">
               <p>
-                As a second-year Bachelor of Science in Artificial Intelligence
-                (BS AI) student, I am expanding my knowledge in programming,
-                mathematics, statistics, and modeling skills. This comprehensive
-                education equips me with the technical and critical thinking
-                skills necessary to contribute effectively to the rapidly
-                evolving field of artificial intelligence.
+                Gaining hands-on experience in deployment, hosting, Docker, and
+                software engineering practices through real-world projects like
+                Saylani’s student and admin portals. Enhancing learner platforms
+                with new features while developing expertise in Next.js, SaaS
+                systems, and AI-driven applications for scalable solutions
               </p>
             </div>
           </div>
@@ -50,21 +49,21 @@ const Index = () => {
                                 <p className="text-xs font-semibold">05/2022-08/2022</p>
                             </div> */}
               <div className="date flex md:transform md:rotate-90 text-center text-teal-300 h-5 md:self-center md:align-middle md:-ml-12 md:-mr-12">
-                <p className="text-xs font-semibold">08/2021-06/2023</p>
+                <p className="text-xs font-semibold">05/2024-Present</p>
               </div>
 
               <div className="desc flex flex-col font-bold text-lg gap-4 md:gap-8  justify-between">
-                <p className="">Islamia College of science and technology</p>
-                <p className="italic">Karachi,Pakistan</p>
+                <p className="">Optimix Solutions</p>
+                <p className="italic">MERN Stack Developer</p>
               </div>
             </div>
 
             <div className="text-zinc-100 text-sm">
               <p>
-                At there completed my Intermediate in Computer Science, where I
-                developed a strong foundation in programming, mathematics, and
-                problem-solving skills. This education has been instrumental in
-                preparing me for advanced studies in Artificial Intelligence.
+                Led cross-functional teams in Agile/Scrum environments to
+                deliver high-impact projects efficiently. Developed and deployed
+                scalable cross-platform applications using the MERN stack and
+                other stack.
               </p>
             </div>
           </div>
